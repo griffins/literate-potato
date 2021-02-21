@@ -133,8 +133,6 @@ td{
 table thead td, table tbody td{
 	border:none;
 	border-collapse:collapse;
-	box-shadow: 0px 0px 5px rgba(119, 179, 222, 0.43);
-	transition: color 0.2s linear 0s, border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
 tr#header{
 	border-style:solid;
@@ -142,14 +140,14 @@ tr#header{
 	border-color:#0099dd;
 }
 tr#header td{
-	border-style:none;
+	border:solid rgba(0, 153, 221, 0.8) 3px;
 	font-size:128.2%;
 	text-align: left;
 }
 .today{
 	border:none;
 	padding:5%;
-	background-color:rgba(0, 153, 221, 0.3);
+	background-color:rgba(0, 153, 221, 0.8);
 	text-align: center;
 }
 .else{
@@ -159,10 +157,10 @@ tr#header td{
 	background-color:rgba(119, 179, 222, 0.43);
 }
 .else:hover{
-	background-color: rgba(0, 153, 221, 0.3);
+	background-color: rgba(0, 153, 221, 0.5);
 }
 .else:active{
-	background-color: rgba(0, 153, 221, 0.3);
+	background-color: rgba(0, 153, 221, 0.5);
 }
 </style>
 </head>
